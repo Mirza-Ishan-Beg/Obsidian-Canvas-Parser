@@ -1,14 +1,4 @@
 
-# Table of Content
-
-1. [[#Introduction]]
-2. [[#Setup]]
-	1. [[#Installation]]
-	2. [[#Usage]]
-3. [[#Credits]]
-
----
-
 # Introduction
 
 This is the 1.0v of the C++ parser, being simple and quite niche. I made it because I needed something to count and jot down statistics of total things done and not done in my .canvas file.
