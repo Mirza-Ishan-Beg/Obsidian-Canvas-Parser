@@ -36,8 +36,9 @@ public:
 
 
 
-int main(){
-    std::ifstream f("C:\\Users\\Ishan\\Documents\\Info-Cluster\\Planning\\YEAR - 2025.canvas");
+int main(int argc, char** argv){
+    std::cout << "[INFO] Parsing canvas file...\n";
+    std::ifstream f(argv[1]);
     if(!f){
         std::cerr << "Error opening file\n";
         return 1;
@@ -131,7 +132,7 @@ int main(){
         }
     }
 
-    std::filesystem::path path = "C:/Users/Ishan/Documents/Info-Cluster/Feedback/Report-Cluster/Tasks/Accomplished-stats.md";
+    std::filesystem::path path = argv[2];
     if (FileManager::createFile(path)) {
         std::cout << "File created successfully!\n";
         std::string create_string = "";
