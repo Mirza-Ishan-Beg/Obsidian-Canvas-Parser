@@ -31,6 +31,9 @@ Open the terminal at the directory level of the executable file and run:
 .\ObsidianCanvasParser.exe "<PATH\TO\YOUR\CANVAS\FILE.canvas>" "<PATH\TO\MARKDOWN\FILE.md>"
 ```
 
+### Video Demo
+![demo.mp4](assets/demo.mp4)
+
 ---
 # Credits
 
